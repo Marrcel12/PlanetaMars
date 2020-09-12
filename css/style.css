@@ -1,29 +1,83 @@
-@font-face{
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
     font-family: Exo;
+    color: white;
     src: url(../fonts/Exo-VariableFont_wght.ttf)
 }
-.topnav {
-    text-align: center;
-    font-size: 17px;
-}
-.exo_font{
+
+.exo_font {
     font-family: Exo;
     font-style: normal;
 }
-.topnav a {
-      
-    color: black;
+
+.top_nav {
+    position: relative;
     text-align: center;
-    padding: 14px 16px;
+    font-size: 17px;
+    top: 3vh;
+}
+
+.top_nav .logo {
+    position: absolute;
+    left: 4vw;
+    width: 42px;
+    height: 47px;
+    background-image: url(../img/icon.png);
+    background-size: cover;
+}
+
+.top_nav a {
+    color: white;
+    text-align: center;
+    padding: 1.5vw;
     text-decoration: none;
     font-size: 17px;
-  }
-  
-  .topnav a:hover {
+    font-style: normal;
+    font-weight: bold;
+    line-height: 23px;
+}
+
+.top_nav a:hover {
     color: black;
-  }
-  
-  .topnav a.active {
+}
+
+.top_nav a.active {
     background-color: transparent;
     color: black;
-  }
+}
+
+.top_nav .search_top_nav {
+    position: absolute;
+    top: 0vh;
+    right: 4.2vw;
+}
+
+.search_top_nav input {
+    background-color: transparent;
+    border-style: hidden hidden groove;
+    outline: none;
+    border: transparent;
+    border-bottom: #FF6416;
+    border-style: solid;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.search_top_nav input:active {
+    outline: none;
+    border-style: hidden hidden groove;
+    border-bottom: #FF6416;
+    border-style: solid;
+}
+
+.search_top_nav input::placeholder {
+    color: white;
+}
+
+.search_top_nav .fa {
+    color: white;
+    font-size: 2.2vh;
+}
