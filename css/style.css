@@ -2,6 +2,10 @@
     font-family: Exo;
     src: url(../fonts/Exo-VariableFont_wght.ttf)
 }
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf)
+}
 body{
     background-color: #1D1D1D;
     color: white;
@@ -12,6 +16,10 @@ body{
 }
 .exo_font{
     font-family: Exo;
+    font-style: normal;
+}
+.roboto_font{
+    font-family: Roboto;
     font-style: normal;
 }
 .topnav a {
