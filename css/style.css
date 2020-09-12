@@ -1,7 +1,15 @@
+@font-face{
+    font-family: Exo;
+    src: url(../fonts/Exo-VariableFont_wght.ttf)
+}
 .topnav {
     text-align: center;
+    font-size: 17px;
 }
-  
+.exo_font{
+    font-family: Exo;
+    font-style: normal;
+}
 .topnav a {
       
     color: black;
