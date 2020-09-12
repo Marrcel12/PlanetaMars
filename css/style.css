@@ -2,6 +2,10 @@
     font-family: Exo;
     src: url(../fonts/Exo-VariableFont_wght.ttf)
 }
+body{
+    background-color: #1D1D1D;
+    color: white;
+}
 .topnav {
     text-align: center;
     font-size: 17px;
@@ -11,8 +15,7 @@
     font-style: normal;
 }
 .topnav a {
-      
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
