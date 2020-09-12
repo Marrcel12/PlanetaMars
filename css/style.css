@@ -1,11 +1,23 @@
-* {
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: Exo;
     color: white;
     src: url(../fonts/Exo-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
+body {
+    background-color: #1D1D1D;
+    color: white;
+}
+
+.topnav {
+    text-align: center;
+    font-size: 17px;
+    top: 3vh;
 }
 
 .exo_font {
@@ -13,71 +25,107 @@
     font-style: normal;
 }
 
-.top_nav {
-    position: relative;
-    text-align: center;
-    font-size: 17px;
-    top: 3vh;
+.roboto_font {
+    font-family: Roboto;
+    font-style: normal;
 }
 
-.top_nav .logo {
-    position: absolute;
-    left: 4vw;
-    width: 42px;
-    height: 47px;
-    background-image: url(../img/icon.png);
-    background-size: cover;
-}
-
-.top_nav a {
+.topnav a {
     color: white;
     text-align: center;
     padding: 1.5vw;
     text-decoration: none;
     font-size: 17px;
-    font-style: normal;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    background-color: transparent;
+    color: black;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 30% 17% 17% 17% 20%;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+footer > div {
+    height: 100%;
+}
+
+#foot_logo {
+    font-size: 30px;
     font-weight: bold;
-    line-height: 23px;
 }
 
-.top_nav a:hover {
-    color: black;
+#foot_logo img {
+    width: 42px;
+    height: 47px;
 }
 
-.top_nav a.active {
-    background-color: transparent;
-    color: black;
+#foot_logo .helper {
+    height: 47px;
+    position: relative;
+    margin-top: 30px;
 }
 
-.top_nav .search_top_nav {
-    position: absolute;
-    top: 0vh;
-    right: 4.2vw;
+#foot_logo .helper span {
+    position: relative;
+    top: -12px;
+    left: 10px;
 }
 
-.search_top_nav input {
-    background-color: transparent;
-    border-style: hidden hidden groove;
-    outline: none;
-    border: transparent;
-    border-bottom: #FF6416;
-    border-style: solid;
-    font-size: 15px;
-    line-height: 20px;
+.footer-col {
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+
 }
 
-.search_top_nav input:active {
-    outline: none;
-    border-style: hidden hidden groove;
-    border-bottom: #FF6416;
-    border-style: solid;
+.footer-col ul li {
+    list-style: none;
+    margin-bottom: 20px;
 }
 
-.search_top_nav input::placeholder {
-    color: white;
+.footer-col ul li a {
+    color: #C4C4C4;
+    text-decoration: none;
 }
 
-.search_top_nav .fa {
-    color: white;
-    font-size: 2.2vh;
+#social {
+    text-align: right
+}
+
+#social > .social_icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 6px;
+    transition: .1s linear;
+}
+
+#social .facebook {
+    background-color: #699DEA;
+}
+#social .facebook:hover{
+    background-color: #385888;
+}
+
+#social .mail {
+    background-color: #797979;
+}
+#social .mail:hover{
+    background-color: #525151;
+}
+#social img{
+    margin: 10px;
 }
