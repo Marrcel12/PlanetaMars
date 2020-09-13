@@ -41,10 +41,11 @@
     text-align: center;
     padding: 1.5vw;
     text-decoration: none;
-    font-size: 21px;
+    font-size: 17px;
     font-style: normal;
     font-weight: bold;
     line-height: 23px;
+    transition: .1s linear;
 }
 
 .top_nav .col-2 {
