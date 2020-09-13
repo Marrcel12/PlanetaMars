@@ -8,6 +8,12 @@
     src: url(../fonts/Exo-VariableFont_wght.ttf)
 }
 
+@font-face {
+    font-family: Roboto;
+    color: white;
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
 .exo_font {
     font-family: Exo;
     font-style: normal;

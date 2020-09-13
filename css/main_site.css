@@ -36,8 +36,9 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 26px;
     line-height: 23px;
+    margin-top: 4vh;
 }
 
 .intro button {
@@ -78,7 +79,8 @@ img:hover {
 }
 
 .news h1 {
-    margin-top: 10vh;
+    margin-top: 18vh;
+    margin-bottom: 5vh;
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -86,4 +88,62 @@ img:hover {
     line-height: 59px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.news_feed {
+    display: grid;
+    width: 51vw;
+    margin: 0 auto;
+    height: 66vh;
+    margin-bottom: 18vh;
+    grid-template-columns: 0.5fr 0.5fr;
+    grid-template-rows: 31.2vh 31.2vh;
+    gap: 1.3vh;
+}
+
+.news_feed div>span {
+    background-color: #1D1D1D;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.news_article_1 {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    /* background-color: blanchedalmond; */
+    background-image: url("../img/placeholder/jwst.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.news_article_2 {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    background-image: url("../img/placeholder/turtle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.news_article_3 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    background-image: url("../img/placeholder/leaf.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
+}
+
+.news_article_4 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-image: url("../img/placeholder/thunderstorm.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain
 }
