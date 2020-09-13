@@ -128,3 +128,15 @@ body {
     position: absolute;
     bottom: 38px;
 }
+.carousel{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.carousel ul{
+    display: flex
+}
+.carousel_tile{
+    list-style: none;
+    display: block;
+}

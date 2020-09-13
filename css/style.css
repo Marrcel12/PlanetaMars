@@ -106,7 +106,7 @@ footer {
     grid-template-columns: 30% 17% 17% 17% 20%;
     position: relative;
     margin: 0 auto;
-    max-width: 1000px;
+    width: 1000px;
     margin-bottom: 40px;
 }
 
