@@ -14,15 +14,18 @@
 }
 
 .top_nav {
-    position: relative;
-    text-align: center;
     font-size: 17px;
-    top: 3vh;
+    text-align: center;
+}
+
+.top_nav .container {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 3vh 4vh;
 }
 
 .top_nav .logo {
-    position: absolute;
-    left: 4vw;
+    margin: 0 auto;
     width: 42px;
     height: 47px;
     background-image: url(../img/icon.png);
@@ -40,6 +43,21 @@
     line-height: 23px;
 }
 
+.top_nav .col-2 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+
+.top_nav .col-3 {
+    grid-row: 2/3;
+    grid-column: 3/-1;
+}
+
+.top_nav .col-1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
 .top_nav a:hover {
     color: black;
 }
@@ -49,10 +67,8 @@
     color: black;
 }
 
-.top_nav .search_top_nav {
-    position: absolute;
-    top: 0vh;
-    right: 4.2vw;
+.search_top_nav {
+    margin-right: 6vw;
 }
 
 .search_top_nav input {
