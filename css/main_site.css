@@ -27,35 +27,38 @@ body {
 }
 
 .intro h1 {
-    font-weight: bolder;
-    font-size: 94px;
+    font-weight: bold;
+    font-size: 70px;
     line-height: 93px;
 }
 
 .intro p {
     font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 20px;
     line-height: 23px;
-    margin-top: 4vh;
+    margin-top: 32px;
 }
 
 .intro button {
-    width: 11vw;
-    height: 5vh;
+    width: 223px;
+    height: 56px;
     color: #FF6416;
-    background: rgba(255, 100, 22, 0.2);
+    text-transform: uppercase;
     border-radius: 10px;
+    background: rgba(255, 100, 22, 0);
     border: 2px solid #FF6416;
     font-weight: bold;
     font-size: 20px;
     line-height: 27px;
-    margin-top: 3vh;
+    font-weight: bold;
+    margin-top: 47px;
+    cursor: pointer;
 }
 
 .intro button:hover {
-    cursor: pointer;
+    background: rgba(255, 100, 22, 0.2);
 }
 
 .intro_social {
