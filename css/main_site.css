@@ -87,6 +87,10 @@ body {
     
 }
 
+.news{
+    margin-bottom: 75px;
+}
+
 .news h1 {
     margin-top: 15vh;
     margin-bottom: 5vh;
@@ -131,12 +135,37 @@ body {
 .carousel{
     width: 1000px;
     position: relative;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 .carousel ul{
     display: flex
 }
+.carousel_title{
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.carousel_title img:first-of-type{
+    position: relative;
+    top:6px;
+}
+
 .carousel_tile{
     list-style: none;
     display: block;
+    font-size: 16px;
+    position: relative;
+    margin: 8px;
+}
+.carousel_tile img{
+    width: 402px;
+    height: 262px;
+}
+.carousel_text{
+    background-color: #1d1d1d;
+    max-width: 321px;
+    position: absolute;
+    bottom: 23px;
+    line-height: 21px;
+    padding-right: 5px;
 }
