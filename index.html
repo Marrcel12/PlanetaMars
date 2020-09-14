@@ -13,6 +13,7 @@
     <!-- rest_site -->
     <link rel="stylesheet" href="css/main_site.css">
     <title>Planeta Mars</title>
+    <link rel="shortcut icon" href="img/components/icon.png">
 </head>
 
 <body>
@@ -78,8 +79,13 @@
     </section>
 <!--    Moja karuzela, na razie nie tykać :3  -->
     <section class="carousel exo_font">
+       <input type="hidden" id="technologyIndex" value="0">
         <div class="carousel_title">Technologia <img src="img/components/energy.png" alt=""></div>
-        <ul>
+        <img src="img/components/skip.png" alt="" class="prev" onclick="previous('technology')">
+        <img src="img/components/skip.png" alt="" class="next" onclick="next('technology')">
+        <div class="carousel_blur"></div>
+        <div class="carousel_blur"></div>
+        <ul id="techUl">
             <li class="carousel_tile technology">
                 <img src="img/placeholder/2.jpg" alt="">
                 <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
@@ -99,29 +105,72 @@
         </ul>
     </section>
     <section class="carousel exo_font">
+       <input type="hidden" id="scienceIndex" value="0">
         <div class="carousel_title">Nauka <img src="img/components/telescope.png" alt=""></div>
-        <ul>
+        <img src="img/components/skip.png" alt="" class="prev" onclick="previous('science')">
+        <img src="img/components/skip.png" alt="" class="next" onclick="next('science')">
+        <div class="carousel_blur"></div>
+        <div class="carousel_blur"></div>
+        <ul id="scienceUl">
             <li class="carousel_tile science">
-                <img src="" alt="">
-                <div class="carousel_text"></div>
+                <img src="img/placeholder/jwst.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+            <li class="carousel_tile science">
+                <img src="img/placeholder/jwst.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+            <li class="carousel_tile science">
+                <img src="img/placeholder/jwst.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+            <li class="carousel_tile science">
+                <img src="img/placeholder/jwst.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+            <li class="carousel_tile science">
+                <img src="img/placeholder/jwst.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
             </li>
         </ul>
     </section>
     <section class="carousel exo_font">
+       <input type="hidden" id="mediaIndex" value="0">
         <div class="carousel_title">Media <img src="img/components/share.png" alt=""></div>
-        <ul>
+        <img src="img/components/skip.png" alt="" class="prev" onclick="previous('media')">
+        <img src="img/components/skip.png" alt="" class="next" onclick="next('media')">
+        <div class="carousel_blur"></div>
+        <div class="carousel_blur"></div>
+        <ul id="mediaUl">
             <li class="carousel_tile media">
-                <img src="" alt="">
-                <div class="carousel_text"></div>
+                <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
+            </li>
+            <li class="carousel_tile media">
+                <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
+            </li>
+            <li class="carousel_tile media">
+                <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
             </li>
         </ul>
     </section>
     <section class="carousel exo_font">
+       <input type="hidden" id="favouritesIndex" value="0">
         <div class="carousel_title">Najbardziej cenione <img src="img/components/heart.png" alt=""></div>
-        <ul>
+        <img src="img/components/skip.png" alt="" class="prev" onclick="previous('favourites')">
+        <img src="img/components/skip.png" alt="" class="next" onclick="next('favourites')">
+        <div class="carousel_blur"></div>
+        <div class="carousel_blur"></div>
+        <ul id="favouritesUl">
             <li class="carousel_tile favourites">
-                <img src="" alt="">
-                <div class="carousel_text"></div>
+                <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
+            </li>
+            <li class="carousel_tile favourites">
+                <img src="img/placeholder/2.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
             </li>
         </ul>
     </section>
