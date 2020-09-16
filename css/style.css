@@ -59,9 +59,11 @@
     background-color: transparent;
     color: black;
 }
-search_top_nav .fa{
+
+search_top_nav .fa {
     font-weight: lighter;
 }
+
 .search_top_nav input {
     background-color: transparent;
     border-style: hidden hidden groove;
@@ -74,7 +76,8 @@ search_top_nav .fa{
     line-height: 20px;
     font-family: Exo;
 }
-.search_top_nav img{
+
+.search_top_nav img {
     position: relative;
     top: 6px;
     left: -5px;
