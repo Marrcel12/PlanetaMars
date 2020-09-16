@@ -41,7 +41,7 @@ body {
     margin-top: 32px;
 }
 
-.intro button {
+.intro button, #contact_form button {
     width: 223px;
     height: 56px;
     color: #FF6416;
@@ -57,7 +57,7 @@ body {
     cursor: pointer;
 }
 
-.intro button:hover {
+.intro button:hover, #contact_form button:hover {
     background: rgba(255, 100, 22, 0.2);
 }
 
@@ -237,7 +237,7 @@ body {
     right: 0px;
 }
 
-#mainAside {
+#main_aside {
     background-color: gray;
     width: 1000px;
     height: 200px;
@@ -247,8 +247,70 @@ body {
     text-align: center;
 }
 
-#mainAside p {
+#main_aside p {
     color: black;
     font-weight: bold;
     font-size: 40px;
+}
+#contact_form{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+#contact_form h1{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.contact_helper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: left;
+}
+.contact_intro{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.contact_helper>form{
+    margin-left: 20px;
+}
+form{
+    font-family: Roboto !important;
+}
+textarea{
+    resize: none;
+    width: 100%;
+    height: 200px;
+    transition: .1s linear;
+    border: 3px solid #1d1d1d;
+        margin-bottom: 10px;
+
+}
+#contact_form input{
+    height: 36px;
+    padding-left: 10px;
+    transition: .1s linear;
+    border: 3px solid #1d1d1d;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#contact_form input:hover, textarea:hover, textarea:focus, #contact_form input:focus{
+    border: 3px solid #FB9638;
+}
+#contact_form input:nth-of-type(2){
+    width: calc(50% - 10px);
+    margin-right: 10px;
+}
+#contact_form input:nth-of-type(3){
+    width: calc(50% - 10px);
+    margin-left: 10px;
+}
+#contact_form button{
+    margin-top: 10px;
+    position: relative;
+    width: 173px;
+    height: 56px;
+    left: calc(100% - 173px);
+    
 }
