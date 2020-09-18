@@ -1,0 +1,19 @@
+body{
+    padding-top: 100px;
+}
+.cat_content{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.cat_content h2 img{
+    height: 32px;
+    position: relative;
+    top:5px;
+}
+.cat_content h2 a{
+    margin-right: 10px;
+}
+.cat_content h2{
+    font-size: 32px;
+}
