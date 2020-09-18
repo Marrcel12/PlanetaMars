@@ -3,8 +3,10 @@ body{
 }
 .cat_content{
     width: 1000px;
+    height: 930px;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 150px;
 }
 .cat_content h2 img{
     height: 32px;
@@ -16,4 +18,61 @@ body{
 }
 .cat_content h2{
     font-size: 32px;
+    margin-bottom: 40px;
+}
+.cat_tiles{
+    grid-template-columns: 33% 33% 33%;
+    display: none;
+    
+}
+.tile{
+    transition: .1s linear;
+    position: relative;
+    margin: 7.5px;
+}
+.tile img{
+    width: 315px;
+    height: 180px;
+    
+}
+.tile a{
+    text-decoration: none;
+}
+.tile a p{
+    max-width: 240px;
+    background-color: #1d1d1d;
+    font-size: 15px;
+    position: absolute;
+    bottom: 30px;
+    padding: 0 5px;
+}
+.tile:hover{
+    filter: brightness(.6)
+}
+#slide1{
+    display: grid;
+}
+#change_page{
+    text-align: center;
+}
+#change_page{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+}
+#change_page button{
+    background-color: #1d1d1d;
+    border: none;
+    font-family: Exo;
+    font-size: 20px;
+    padding: 10px;
+    transition: .1s linear;
+    outline: none;
+    cursor: pointer;
+}
+#change_page button:hover{
+    transform: scale(1.1);
+}
+#slide_button1{
+    color: #FF6416;
 }
