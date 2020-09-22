@@ -43,10 +43,66 @@
             <div class="intro_text">
                 <h1 class="exo_font">Tutaj nazwa artykułu która może być długa i wyświetla się całościowo</h1>
             </div>
-            <div class="intro_social">
+            <div class="intro_icons">
 
             </div>
         </section>
+    </section>
+    <section class="article_container">
+        <div class="article_content">
+            <div class="article_text roboto_font">
+                <p class="text">
+                    Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br>
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.<br><br>
+
+                    Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.<br><br>
+
+                    The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                </p>
+                <p class="credits exo_font">
+                    29.06.2020
+                    <br><br>
+                    <strong>AUTOR</strong>
+                </p>
+            </div>
+            <div class="article_imgs">
+                <img src="img/placeholder/99c696a6cf09df3824fc04cda808dca2.jpg" alt="">
+                <img src="img/placeholder/leaf.png" alt="">
+                <img src="img/placeholder/international-space-station-1176518.jpg" alt="">
+                <img src="img/placeholder/NASA's%20InSight%20lander%20on%20Mars%20by%20Charlie%20Burgess.jpg" alt="">
+            </div>
+        </div>
+        <div class="aside">
+            <aside></aside>
+            <aside></aside>
+        </div>
+    </section>
+    <section class="carousel exo_font">
+        <input type="hidden" id="othersIndex" value="0">
+        <div class="carousel_title">Inne artykuły</div>
+        <img src="img/components/skip.png" alt="" class="prev" onclick="previous('others')">
+        <img src="img/components/skip.png" alt="" class="next" onclick="next('others')">
+        <div class="carousel_blur"></div>
+        <div class="carousel_blur"></div>
+        <ul id="othersUl">
+            <li class="carousel_tile others">
+                <img src="img/placeholder/space-telescope-532989.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+            <li class="carousel_tile others">
+                <img src="img/placeholder/2.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
+            </li>
+            <li class="carousel_tile others">
+                <img src="img/placeholder/rocket-launch-67723.jpg" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
+            </li>
+            <li class="carousel_tile others">
+                <img src="img/placeholder/turtle.png" alt="">
+                <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
+            </li>
+        </ul>
     </section>
     <footer>
         <div id="foot_logo" class="exo_font">
@@ -81,4 +137,5 @@
             </div>
         </div>
     </footer>
+    <script src="scripts/articleCarousel.js"></script>
 </body>
