@@ -1,121 +1,132 @@
 @media only screen and (max-width: 1000px) {
     footer {
-    position: relative;
-    margin: 0 auto;
-    width: 95vw;
-    margin-bottom: 40px;
-}
+        position: relative;
+        margin: 0 auto;
+        width: 95vw;
+        margin-bottom: 40px;
+    }
 
-footer > div {
-    height: 100%;
-}
+    footer > div {
+        height: 100%;
+    }
 
-#foot_logo {
-    font-size: 30px;
-    font-weight: bold;
-    text-align: center;
-}
+    #foot_logo {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+    }
 
-#foot_logo img {
-    width: 42px;
-    height: 47px;
-}
+    #foot_logo img {
+        width: 42px;
+        height: 47px;
+    }
 
-#foot_logo .helper {
-    height: 47px;
-    position: relative;
-    margin: 30px 0;
-}
+    #foot_logo .helper {
+        height: 47px;
+        position: relative;
+        margin: 30px 0;
+    }
 
-#foot_logo .helper span {
-    position: relative;
-    top: -12px;
-    left: 10px;
-}
+    #foot_logo .helper span {
+        position: relative;
+        top: -12px;
+        left: 10px;
+    }
 
-.footer-col {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 16px;
-    display: inline-block;
-    width: 49%;
-}
-    .footer-col:nth-of-type(3){
+    .footer-col {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+        display: inline-block;
+        width: 49%;
+    }
+
+    .footer-col:nth-of-type(3) {
         text-align: right;
     }
-    
 
-.footer-col ul li {
-    list-style: none;
-    margin-bottom: 20px;
-}
+    .footer-col ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
 
-.footer-col ul li a {
-    color: #C4C4C4;
-    text-decoration: none;
-}
+    .footer-col ul li a {
+        color: #C4C4C4;
+        text-decoration: none;
+    }
+
     #social {
-    text-align: left;
-}
+        text-align: left;
+    }
+
+    .top_nav {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     footer {
-    display: grid;
-    grid-template-columns: 30% 17% 17% 17% 20%;
-    position: relative;
-    margin: 0 auto;
-    width: 1000px;
-    margin-bottom: 40px;
+        display: grid;
+        grid-template-columns: 30% 17% 17% 17% 20%;
+        position: relative;
+        margin: 0 auto;
+        width: 1000px;
+        margin-bottom: 40px;
+    }
+
+    footer > div {
+        height: 100%;
+    }
+
+    #foot_logo {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    #foot_logo img {
+        width: 42px;
+        height: 47px;
+    }
+
+    #foot_logo .helper {
+        height: 47px;
+        position: relative;
+        margin-top: 30px;
+    }
+
+    #foot_logo .helper span {
+        position: relative;
+        top: -12px;
+        left: 10px;
+    }
+
+    .footer-col {
+        font-family: Roboto;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .footer-col ul li {
+        list-style: none;
+        margin-bottom: 20px;
+    }
+
+    .footer-col ul li a {
+        color: #C4C4C4;
+        text-decoration: none;
+    }
+
+    #social {
+        text-align: right
+    }
+
+    .mobile_nav {
+        display: none;
+    }
 }
 
-footer > div {
-    height: 100%;
-}
-
-#foot_logo {
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#foot_logo img {
-    width: 42px;
-    height: 47px;
-}
-
-#foot_logo .helper {
-    height: 47px;
-    position: relative;
-    margin-top: 30px;
-}
-
-#foot_logo .helper span {
-    position: relative;
-    top: -12px;
-    left: 10px;
-}
-
-.footer-col {
-    font-family: Roboto;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 16px;
-}
-
-.footer-col ul li {
-    list-style: none;
-    margin-bottom: 20px;
-}
-
-.footer-col ul li a {
-    color: #C4C4C4;
-    text-decoration: none;
-}
-   #social {
-    text-align: right
-} 
-}
 * {
     box-sizing: border-box;
 }
@@ -238,7 +249,6 @@ search_top_nav .fa {
     font-style: normal;
 }
 
-
 #social > .social_icon {
     width: 44px;
     height: 44px;
@@ -268,6 +278,3 @@ search_top_nav .fa {
 #social img {
     margin: 10px;
 }
-
-
-
