@@ -14,21 +14,25 @@ window.onscroll = function () {
         }
     }
 }
-function openMenu(){
+
+function openMenu() {
     document.getElementsByClassName('main_bar')[0].style.display = 'none';
     document.getElementsByClassName('hamburger_bar')[0].style.display = 'grid';
     document.getElementsByClassName('list')[0].style.top = '60px';
 }
-function openSearch(){
+
+function openSearch() {
     document.getElementsByClassName('main_bar')[0].style.display = 'none';
     document.getElementsByClassName('search_bar')[0].style.display = 'grid';
 }
-function closeMenu(){
+
+function closeMenu() {
     document.getElementsByClassName('main_bar')[0].style.display = 'grid';
     document.getElementsByClassName('hamburger_bar')[0].style.display = 'none';
     document.getElementsByClassName('list')[0].style.top = '-100%';
 }
-function closeSearch(){
+
+function closeSearch() {
     document.getElementsByClassName('main_bar')[0].style.display = 'grid';
     document.getElementsByClassName('search_bar')[0].style.display = 'none';
 }

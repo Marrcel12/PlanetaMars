@@ -16,6 +16,32 @@
 </head>
 
 <body>
+   <div class="mobile_nav roboto_font">
+       <div class="topbar">
+           <div class="main_bar">
+               <div class="logo"><img src="img/components/icon.png" alt=""></div>
+               <div class="icons">
+                   <img onclick="openSearch()" src="img/components/topbar_magnifying_glass.png" alt=""><img onclick="openMenu()" src="img/components/hamburger.png" alt="">
+               </div>
+           </div>
+           <div class="search_bar" style="display: none">
+               <input type="text">
+               <div class="icon"><img onclick="search()" src="img/components/topbar_magnifying_glass.png" alt="">
+               <img onclick="closeSearch()" src="img/components/close.png" alt=""></div>
+           </div>
+           <div class="hamburger_bar" style="display: none">
+               <div class="logo"><img src="img/components/icon.png" alt=""></div>
+               <div class="close"><img onclick="closeMenu()" src="img/components/close.png" alt=""></div>
+           </div>
+       </div>
+       <div class="list">
+           <ul>
+               <li><a href="">Aktualności</a></li>
+               <li><a href="">Artykuły</a></li>
+               <li><a href="">Kontakt</a></li>
+           </ul>
+       </div>
+   </div>
     <div class="top_nav exo_font">
         <div class="container">
             <div class="col-1">
@@ -227,6 +253,7 @@
         </div>
     </footer>
     <script src="scripts/category_tiles.js"></script>
+    <script src="scripts/topbar.js"></script>
 </body>
 
 </html>
