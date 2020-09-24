@@ -1,6 +1,87 @@
-html{
+@media only screen and (max-width: 1000px) {
+    .about {
+        width: 85vw;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .about .contents {
+        display: grid;
+        grid-template-columns: 100%;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .contents > img {
+        width: 380px;
+        position: relative;
+        top: calc(100% - 410px);
+        margin: 30px 0;
+    }
+
+    .contents div {
+        margin-top: 60px;
+    }
+
+    .title span {
+        color: #FF6416;
+        font-size: 20px;
+        position: relative;
+        top: -7px;
+        left: 5px;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 23px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about {
+        width: 1000px;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .about .contents {
+        display: grid;
+        grid-template-columns: 420px auto;
+        position: relative;
+        margin-top: 40px;
+    }
+
+    .contents > img {
+        width: 380px;
+        position: relative;
+        top: calc(100% - 410px);
+    }
+
+    .title span {
+        color: #FF6416;
+        font-size: 20px;
+        position: relative;
+        top: -7px;
+        left: 5px;
+    }
+
+    .text {
+        font-size: 18px;
+        line-height: 23px;
+        text-align: justify;
+        margin-bottom: 30px;
+    }
+}
+
+html {
     scroll-behavior: smooth;
 }
+
 header {
     font-size: 30px;
     text-align: center;
@@ -16,7 +97,7 @@ header h1 {
     top: calc(50vh - 30px);
 }
 
-header a{
+header a {
     transform: rotate(270deg);
     filter: none;
     cursor: pointer;
@@ -24,41 +105,6 @@ header a{
     bottom: 50px;
 }
 
-header a:hover{
+header a:hover {
     filter: invert(17%) sepia(48%) saturate(6477%) hue-rotate(354deg) brightness(102%) contrast(124%);
-}
-
-.about {
-    width: 1000px;
-    margin: 0 auto;
-    margin-top: 50px;
-    margin-bottom: 100px;
-}
-
-.about .contents {
-    display: grid;
-    grid-template-columns: 420px auto;
-    position: relative;
-    margin-top: 40px;
-
-}
-
-.contents > img {
-    width: 380px;
-    position: relative;
-    top: calc(100% - 410px);
-}
-
-.title span {
-    color: #FF6416;
-    font-size: 20px;
-    position: relative;
-    top: -7px;
-    left: 5px;
-}
-.text{
-    font-size: 18px;
-    line-height: 23px;
-    text-align: justify;
-    margin-bottom: 30px;
 }

@@ -278,14 +278,16 @@ search_top_nav .fa {
 #social img {
     margin: 10px;
 }
-.mobile_nav{
+
+.mobile_nav {
     position: fixed;
     z-index: 11;
     background: #1d1d1d;
     width: 100vw;
     height: 60px;
 }
-.mobile_nav .topbar > div{
+
+.mobile_nav .topbar > div {
     width: 95vw;
     height: 60px;
     position: relative;
@@ -293,49 +295,63 @@ search_top_nav .fa {
     display: grid;
     grid-template-columns: 50% 50%;
 }
- .mobile_nav .topbar > .search_bar{
+
+.mobile_nav .topbar > .search_bar {
     grid-template-columns: 75% 25%;
 }
-.mobile_nav .icons, .mobile_nav .icon,.mobile_nav .close{
+
+.mobile_nav .icons,
+.mobile_nav .icon,
+.mobile_nav .close {
     text-align: right;
 }
-.mobile_nav .icons img, .mobile_nav .icon img,.mobile_nav .close img{
+
+.mobile_nav .icons img,
+.mobile_nav .icon img,
+.mobile_nav .close img {
     margin-top: 20px;
     margin-right: 20px;
 }
-.mobile_nav .topbar .logo{
+
+.mobile_nav .topbar .logo {
     margin-top: 10px;
     margin-left: 20px;
 }
-.mobile_nav .topbar .logo img{
+
+.mobile_nav .topbar .logo img {
     height: 40px;
 }
-.mobile_nav .list{
+
+.mobile_nav .list {
     position: fixed;
     z-index: 10;
     width: 100vw;
     background: #1d1d1d;
     font-weight: bold;
-    top:-100%;
+    top: -100%;
     transition: .1s linear;
 }
-.mobile_nav .list ul{
+
+.mobile_nav .list ul {
     margin-top: 10px;
-    text-decoration:none;
+    text-decoration: none;
 }
-.mobile_nav .list ul li{
+
+.mobile_nav .list ul li {
     list-style: none;
     padding: 13px 30px;
     border-bottom: 1px solid white;
 }
-.mobile_nav .list ul li:last-of-type{
+
+.mobile_nav .list ul li:last-of-type {
     border: none;
 }
-.mobile_nav .list ul li a{
-        text-decoration:none;
 
+.mobile_nav .list ul li a {
+    text-decoration: none;
 }
-.search_bar input{
+
+.search_bar input {
     background-color: #1d1d1d;
     color: white;
     font-family: 'Roboto';
@@ -347,9 +363,10 @@ search_top_nav .fa {
     margin-top: 10px;
     width: 90%;
     position: relative;
-    left:7%;
+    left: 7%;
 }
-.search_bar input:active{
+
+.search_bar input:active {
     border-bottom: 1px solid #FF6416;
     outline: none;
 }

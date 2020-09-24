@@ -11,63 +11,68 @@
         font-size: 22px;
         margin-bottom: 40px;
     }
+
     .cat_tiles {
-    grid-template-columns: 100%;
+        grid-template-columns: 100%;
         height: 3300px;
-}
+    }
+
     .tile img {
-    width: 100%;
-    height: 60vw;
-}
-.tile a p {
-    max-width: 240px;
-    background-color: #1d1d1d;
-    font-size: 15px;
-    position: absolute;
-    bottom: 30px;
-    padding: 0 5px;
-}
-    .tile{
+        width: 100%;
+        height: 60vw;
+    }
+
+    .tile a p {
+        max-width: 240px;
+        background-color: #1d1d1d;
+        font-size: 15px;
+        position: absolute;
+        bottom: 30px;
+        padding: 0 5px;
+    }
+
+    .tile {
         margin-bottom: 10px;
     }
+
     #change_page {
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#change_page {
-    position: absolute;
-    width: 133px;
-    left: calc(50vw - 75px);
-    height: 50px;
-    bottom: -30px;
-    overflow: hidden;
-}
+    #change_page {
+        position: absolute;
+        width: 133px;
+        left: calc(50vw - 75px);
+        height: 50px;
+        bottom: -30px;
+        overflow: hidden;
+    }
 
-#change_page button {
-    background-color: #1d1d1d;
-    border: none;
-    font-family: Exo;
-    font-size: 20px;
-    padding: 10px;
-    transition: .1s linear;
-    outline: none;
-    cursor: pointer;
-}
+    #change_page button {
+        background-color: #1d1d1d;
+        border: none;
+        font-family: Exo;
+        font-size: 20px;
+        padding: 10px;
+        transition: .1s linear;
+        outline: none;
+        cursor: pointer;
+    }
 
-#change_page button:hover {
-    transform: scale(1.3) !important;
-}
+    #change_page button:hover {
+        transform: scale(1.3) !important;
+    }
 
-#slide_button1 {
-    color: #FF6416;
-    transform: scale(1.3);
-}
+    #slide_button1 {
+        color: #FF6416;
+        transform: scale(1.3);
+    }
 
-#button_helper {
-    position: absolute;
-    left: 27.25px;
-    transition: .5s linear;
-}
+    #button_helper {
+        position: absolute;
+        left: 27.25px;
+        transition: .5s linear;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
@@ -85,62 +90,67 @@
         font-size: 32px;
         margin-bottom: 40px;
     }
+
     .cat_tiles {
-    grid-template-columns: 33% 33% 33%;
-}
-    .tile{
-            margin: 7.5px;
+        grid-template-columns: 33% 33% 33%;
     }
+
+    .tile {
+        margin: 7.5px;
+    }
+
     .tile img {
-    width: 315px;
-    height: 180px;
-}
-.tile a p {
-    max-width: 240px;
-    background-color: #1d1d1d;
-    font-size: 15px;
-    position: absolute;
-    bottom: 30px;
-    padding: 0 5px;
-}
+        width: 315px;
+        height: 180px;
+    }
+
+    .tile a p {
+        max-width: 240px;
+        background-color: #1d1d1d;
+        font-size: 15px;
+        position: absolute;
+        bottom: 30px;
+        padding: 0 5px;
+    }
+
     #change_page {
-    text-align: center;
-}
+        text-align: center;
+    }
 
-#change_page {
-    position: absolute;
-    width: 133px;
-    left: 450px;
-    height: 50px;
-    bottom: 0px;
-    overflow: hidden;
-}
+    #change_page {
+        position: absolute;
+        width: 133px;
+        left: 450px;
+        height: 50px;
+        bottom: 0px;
+        overflow: hidden;
+    }
 
-#change_page button {
-    background-color: #1d1d1d;
-    border: none;
-    font-family: Exo;
-    font-size: 20px;
-    padding: 10px;
-    transition: .1s linear;
-    outline: none;
-    cursor: pointer;
-}
+    #change_page button {
+        background-color: #1d1d1d;
+        border: none;
+        font-family: Exo;
+        font-size: 20px;
+        padding: 10px;
+        transition: .1s linear;
+        outline: none;
+        cursor: pointer;
+    }
 
-#change_page button:hover {
-    transform: scale(1.3) !important;
-}
+    #change_page button:hover {
+        transform: scale(1.3) !important;
+    }
 
-#slide_button1 {
-    color: #FF6416;
-    transform: scale(1.3);
-}
+    #slide_button1 {
+        color: #FF6416;
+        transform: scale(1.3);
+    }
 
-#button_helper {
-    position: absolute;
-    left: 27.25px;
-    transition: .5s linear;
-}
+    #button_helper {
+        position: absolute;
+        left: 27.25px;
+        transition: .5s linear;
+    }
 }
 
 .cat_content {

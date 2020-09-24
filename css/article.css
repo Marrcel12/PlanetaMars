@@ -1,32 +1,37 @@
 @media only screen and (max-width: 1000px) {
     .intro_text {
-    position: absolute;
-    top: 50vh;
-    max-width: 800px;
-}
+        position: absolute;
+        top: 50vh;
+        max-width: 800px;
+    }
 
-.intro h1 {
-    font-weight: bold;
-    font-size: 22px;
-    line-height: 30px;
-    text-align: center;
-}
+    .intro h1 {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 30px;
+        text-align: center;
+    }
+
     .main_start {
-        height: 45vh;}
-    .article_container{
-    width: 95vw;
-    position: relative;
-    display: grid;
-    grid-template-columns: 100%;
-    margin: 25vh auto 0 auto;
-}
-    aside{
-    width: 95vw;
-    height: 220px;
-    background: #fff;
-    margin: 20px auto;
-    position: relative;
-}
+        height: 45vh;
+    }
+
+    .article_container {
+        width: 95vw;
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 25vh auto 0 auto;
+    }
+
+    aside {
+        width: 95vw;
+        height: 220px;
+        background: #fff;
+        margin: 20px auto;
+        position: relative;
+    }
+
     .prev,
     .next {
         display: none;
@@ -95,56 +100,64 @@
         line-height: 21px;
         padding-right: 5px;
     }
-    .article_content{
-    display: grid;
-    grid-template-columns: 100%;
-    font-size: 18px;
-}
-    .article_imgs{
+
+    .article_content {
+        display: grid;
+        grid-template-columns: 100%;
+        font-size: 18px;
+    }
+
+    .article_imgs {
         width: 95vw;
         display: flex;
         position: relative;
         margin: 20px auto;
         overflow: scroll;
-}
-.article_imgs img{
-    display: inline-block;
-    width: 40%;
-    height: 26vw; 
-    position: relative;
-    margin: 20px 10px;
-}
+    }
+
+    .article_imgs img {
+        display: inline-block;
+        width: 40%;
+        height: 26vw;
+        position: relative;
+        margin: 20px 10px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
-   .intro_text {
-    position: absolute;
-    top: 40vh;
-    left: 17vw;
-    max-width: 800px;
-}
+    .intro_text {
+        position: absolute;
+        top: 40vh;
+        left: 17vw;
+        max-width: 800px;
+    }
 
-.intro h1 {
-    font-weight: bold;
-    font-size: 50px;
-    line-height: 66.45px;
-} 
+    .intro h1 {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 66.45px;
+    }
+
     .main_start {
-        height: 85vh;}
-    .article_container{
-    max-width: 1000px;
-    position: relative;
-    display: grid;
-    grid-template-columns: 80% 20%;
-    margin: 15vh auto 0 auto;
-}
-    aside{
-    width: 180px;
-    height: 440px;
-    background: #fff;
-    margin: 20px auto;
-    position: relative;
-}
+        height: 85vh;
+    }
+
+    .article_container {
+        max-width: 1000px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 80% 20%;
+        margin: 15vh auto 0 auto;
+    }
+
+    aside {
+        width: 180px;
+        height: 440px;
+        background: #fff;
+        margin: 20px auto;
+        position: relative;
+    }
+
     .prev,
     .next {
         position: absolute;
@@ -244,20 +257,23 @@
         line-height: 21px;
         padding-right: 5px;
     }
-    .article_content{
-    display: grid;
-    grid-template-columns: 80% 20%;
-    font-size: 18px;
-}
-    .article_imgs{
-    padding-top: 50px;
-}
-.article_imgs img{
-    display: block;
-    width: 90%;
-    position: relative;
-    margin: 10px auto;
-}
+
+    .article_content {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        font-size: 18px;
+    }
+
+    .article_imgs {
+        padding-top: 50px;
+    }
+
+    .article_imgs img {
+        display: block;
+        width: 90%;
+        position: relative;
+        margin: 10px auto;
+    }
 }
 
 .main_start {
@@ -268,18 +284,12 @@
     /*    -webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(90%, transparent), to(rgba(250, 250, 250, 0.1)));*/
 }
 
-
-
-
-
-
-
-.credits{
+.credits {
     margin-top: 30px;
-    color:#C4C4C4;
+    color: #C4C4C4;
     text-align: right;
 }
-strong{
-   color:#C4C4C4; 
-}
 
+strong {
+    color: #C4C4C4;
+}
