@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- icons -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- css -->
     <!-- navBar -->
     <link rel="stylesheet" href="css/style.css">
@@ -16,41 +17,47 @@
 </head>
 
 <body>
-   <div class="mobile_nav roboto_font">
-       <div class="topbar">
-           <div class="main_bar">
-               <div class="logo"><img src="img/components/icon.png" alt=""></div>
-               <div class="icons">
-                   <img onclick="openSearch()" src="img/components/topbar_magnifying_glass.png" alt=""><img onclick="openMenu()" src="img/components/hamburger.png" alt="">
-               </div>
-           </div>
-           <div class="search_bar" style="display: none">
-               <input type="text">
-               <div class="icon"><img onclick="search()" src="img/components/topbar_magnifying_glass.png" alt="">
-               <img onclick="closeSearch()" src="img/components/close.png" alt=""></div>
-           </div>
-           <div class="hamburger_bar" style="display: none">
-               <div class="logo"><img src="img/components/icon.png" alt=""></div>
-               <div class="close"><img onclick="closeMenu()" src="img/components/close.png" alt=""></div>
-           </div>
-       </div>
-       <div class="list">
-           <ul>
-               <li><a href="">Aktualności</a></li>
-               <li><a href="">Artykuły</a></li>
-               <li><a href="">Kontakt</a></li>
-           </ul>
-       </div>
-   </div>
+    <div class="mobile_nav roboto_font">
+        <div class="topbar">
+            <div class="main_bar">
+                <div class="logo"><img src="img/components/icon.png" alt=""> <span id="planet_icon">Planeta</span> <span
+                        class="planet_icon_2">MARS </span> </div>
+                <div class="icons">
+                    <img onclick="openSearch()" src="img/components/topbar_magnifying_glass.png" alt=""><img
+                        onclick="openMenu()" src="img/components/hamburger.png" alt="">
+                </div>
+            </div>
+            <div class="search_bar" style="display: none">
+                <input type="text">
+                <div class="icon"><img onclick="search()" src="img/components/topbar_magnifying_glass.png" alt="">
+                    <img onclick="closeSearch()" src="img/components/close.png" alt=""></div>
+            </div>
+            <div class="hamburger_bar" style="display: none">
+                <div class="logo"><img src="img/components/icon.png" alt=""></div>
+                <div class="close"><img onclick="closeMenu()" src="img/components/close.png" alt=""></div>
+            </div>
+        </div>
+        <div class="list">
+            <ul>
+                <li><a href="index.html#news">Aktualności</a></li>
+                <li><a href="index.html#article">Artykuły</a></li>
+                <li><a href="index.html#contact">Kontakt</a></li>
+            </ul>
+        </div>  
+    </div>
     <div class="top_nav exo_font">
         <div class="container">
             <div class="col-1">
-                <div class="logo"></div>
+                <div class="logo_box">
+                    <div class="logo"> </div> <span class="planet_icon_box"><span id="planet_icon"> Planeta</span> <span class="planet_icon_2">MARS
+                    </span>
+                    </span>
+                </div>
             </div>
             <div class="col-2">
-                <a href="#news">AKTUALNOŚCI</a>
-                <a href="#article">ARTYKUŁY</a>
-                <a href="#contact">KONTAKT</a>
+                <a href="index.html#news">AKTUALNOŚCI</a>
+                <a href="index.html#article">ARTYKUŁY</a>
+                <a href="index.html#contact">KONTAKT</a>
             </div>
             <div class="col-3">
                 <div class="search_top_nav exo_font">
@@ -63,43 +70,43 @@
     <section class="main_start">
         <!-- <div class="layer">
         </div> -->
-        <!-- topNav -->
+       
         <section class="intro">
             <div class="intro_text">
                 <h1 class="exo_font">Witaj w Planeta Mars</h1>
                 <p class="roboto_font">Lorem Ipsum is simply dummy text of the printing and typesetting </p>
-                <button class="exo_font" onclick="window.location.href = 'about.html'"> Czytaj więcej</button>
+                <button class="exo_font"> Czytaj więcej</button>
             </div>
             <div class="intro_social">
                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
                 <img src="img/social/facebook.png" alt="">
             </div>
         </section>
-        <!-- topNav -->
     </section>
-    <section class="news exo_font">
+    <div id='news'></div>
+    <section class="news exo_font" id="">
         <h1>Aktualności</h1>
         <div class="news_tiles">
             <div class="news_article">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <p class="news_text">Tutaj nazwa artykułu, która jest długa i nie mieści się w jednym rzędzie </p>
                 </a>
             </div>
             <div class="news_article">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/turtle.png" alt="">
                     <p class="news_text">Tutaj nazwa artykułu która zmieści się </p>
                 </a>
             </div>
             <div class="news_article">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/leaf.png" alt="">
                     <p class="news_text">Tutaj nazwa artykułu która zmieści się </p>
                 </a>
             </div>
             <div class="news_article">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/thunderstorm.png" alt="">
                     <p class="news_text">Tutaj nazwa artykułu, która jest długa i nie mieści się w jednym rzędzie</p>
                 </a>
@@ -107,6 +114,7 @@
         </div>
     </section>
     <!--    Karuzele  -->
+    <div id='article'></div>
     <section class="carousel exo_font">
         <input type="hidden" id="technologyIndex" value="0">
         <div class="carousel_title">Technologia <img src="img/components/energy.png" alt="" class="lightning"></div>
@@ -116,25 +124,25 @@
         <div class="carousel_blur"></div>
         <ul id="techUl">
             <li class="carousel_tile technology">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/2.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
             </li>
             <li class="carousel_tile technology">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/2.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
                 </a>
             </li>
             <li class="carousel_tile technology">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/2.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
                 </a>
             </li>
             <li class="carousel_tile technology">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/2.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
@@ -155,31 +163,31 @@
         <div class="carousel_blur"></div>
         <ul id="scienceUl">
             <li class="carousel_tile science">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
             </li>
             <li class="carousel_tile science">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
             </li>
             <li class="carousel_tile science">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
             </li>
             <li class="carousel_tile science">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
             </li>
             <li class="carousel_tile science">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/jwst.png" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która zmieści się</div>
                 </a>
@@ -200,19 +208,19 @@
         <div class="carousel_blur"></div>
         <ul id="mediaUl">
             <li class="carousel_tile media">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
                 </a>
             </li>
             <li class="carousel_tile media">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
                 </a>
             </li>
             <li class="carousel_tile media">
-                <a href="">
+                <a href="article.html">
                     <img src="img/placeholder/sdo_year10_poster_4k.jpg" alt="">
                     <div class="carousel_text">Tutaj nazwa artykułu która nie zmieści się w linijce</div>
                 </a>
@@ -242,22 +250,30 @@
             </li>
         </ul>
     </section>
+
     <!--    Koniec karuzel  -->
     <aside id='main_aside' class="exo_font">
         <p>ASIDE</p>
+        <div id="contact"></div>
     </aside>
+
+
+
     <section id="contact_form" class="roboto_font">
         <h1>Kontakt</h1>
         <div class="contact_helper">
-            <div class="contact_intro">Masz pytania, chcesz rozmieścić swój artukuł albo porozmawiać na temat współpracy? Napisz do nas wiadomość, a odezwiemy się do Ciebie w jak najszybszym czasie.</div>
+            <div class="contact_intro">Masz pytania, chcesz rozmieścić swój artukuł albo porozmawiać na temat
+                współpracy? Napisz do nas wiadomość, a odezwiemy się do Ciebie w jak najszybszym czasie.</div>
             <form action="">
                 <input type="email" placeholder="Mail" name="email" style="font-family: Roboto">
                 <br>
-                <input type="text" placeholder="Imię" name="name" style="font-family: Roboto"><input type="text" placeholder="Nazwisko" name="firstname" style="font-family: Roboto">
+                <input type="text" placeholder="Imię" name="name" style="font-family: Roboto"><input type="text"
+                    placeholder="Nazwisko" name="firstname" style="font-family: Roboto">
                 <br>
                 <input type="text" placeholder="Temat" name="subject" style="font-family: Roboto">
                 <br>
-                <textarea name="message" cols="30" rows="10" placeholder="Treść wiadomości" style="font-family: Roboto"></textarea>
+                <textarea name="message" cols="30" rows="10" placeholder="Treść wiadomości"
+                    style="font-family: Roboto"></textarea>
                 <button type="submit">Wyślij</button>
             </form>
         </div>
@@ -269,21 +285,21 @@
         <div id="col1" class="footer-col">
             <ul>
                 <li><a href="about.html">O nas</a></li>
-                <li><a href="">Aktualności</a></li>
-                <li><a href="">Artykuły</a></li>
+                <li><a href="article.html">Aktualności</a></li>
+                <li><a href="article.html">Artykuły</a></li>
             </ul>
         </div>
         <div id="col2" class="footer-col">
             <ul>
-                <li><a href="">Technologia</a></li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Media</a></li>
+                <li><a href="technology.html">Technologia</a></li>
+                <li><a href="article.html">Nauka</a></li>
+                <li><a href="article.html">Media</a></li>
             </ul>
         </div>
         <div id="col3" class="footer-col">
             <ul>
-                <li><a href="">Polityka prywatności</a></li>
-                <li><a href="">Polityka cookies</a></li>
+                <li><a href="article.html">Polityka prywatności</a></li>
+                <li><a href="article.html">Polityka cookies</a></li>
             </ul>
         </div>
         <div id="social">

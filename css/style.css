@@ -175,13 +175,37 @@ body {
     display: grid;
     grid-template-columns: 250px auto 250px;
 }
-
+.top_nav .logo_box{
+display: inline-block;
+ margin: 0 auto; 
+}
 .top_nav .logo {
-    margin: 0 auto;
+    display: inline-block;
     width: 42px;
     height: 47px;
     background-image: url(../img/components/icon.png);
     background-size: cover;
+}
+.planet_icon_box{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    left: 156px;
+}
+.logo_box span{
+   
+    font-family: Roboto;
+    padding-bottom: 5%;
+    font-size: 30px;
+    
+}
+.logo_box .planet_icon{
+    font-weight: 600;
+    color:#707070;
+}
+.logo_box .planet_icon_2{
+    font-weight: 50;
+    color:#FF6416;
 }
 
 .top_nav a {
