@@ -282,7 +282,6 @@ textarea {
     transition: .1s linear;
     border: 3px solid #1d1d1d;
     margin-bottom: 10px;
-
 }
 
 #contact_form input {
@@ -317,5 +316,18 @@ textarea:focus,
     width: 173px;
     height: 56px;
     left: calc(100% - 173px);
+}
 
+.more {
+    margin-top: 10px;
+    position: relative;
+    left: calc(100% - 60px);
+}
+
+.more img {
+    transition: .1s linear;
+}
+
+.more img:hover {
+    transform: scale(1.03)
 }

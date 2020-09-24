@@ -11,6 +11,7 @@
     font-family: Roboto;
     src: url(../fonts/Roboto-Regular.ttf)
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -34,6 +35,7 @@ body {
     position: fixed;
     top: 0px;
     z-index: 11;
+    height: 85px;
 }
 
 .top_nav .container {
@@ -158,7 +160,6 @@ footer > div {
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
-
 }
 
 .footer-col ul li {
