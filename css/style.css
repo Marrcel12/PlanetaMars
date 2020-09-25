@@ -403,3 +403,9 @@ button:focus {
     border-bottom: 1px solid #FF6416;
     outline: none;
 }
+.credits{
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 2px;
+    font-weight: 200;
+}
