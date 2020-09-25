@@ -4,9 +4,7 @@ html {
   .planet_icon{
     color: white;
 }
-.planet_icon_2{
-    
-}
+
 @media only screen and (max-width: 1000px) {
     .intro_social {
         display: none;

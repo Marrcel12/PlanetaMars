@@ -221,7 +221,7 @@ display: inline-block;
 }
 
 .top_nav a:hover {
-    color: black;
+    color: #FF6416;
 }
 
 .top_nav a.active {
@@ -232,7 +232,13 @@ display: inline-block;
 search_top_nav .fa {
     font-weight: lighter;
 }
+button:focus {
+    outline: 0 !important;
+}
+.more:hover{
+    filter: invert(49%) sepia(49%) saturate(3635%) hue-rotate(349deg) brightness(100%) contrast(104%);
 
+}
 .search_top_nav input {
     background-color: transparent;
     border-style: hidden hidden groove;
@@ -245,7 +251,10 @@ search_top_nav .fa {
     line-height: 20px;
     font-family: Exo;
 }
-
+.search_top_nav input:focus{
+    border-bottom-width: 4px;
+    order-bottom: #ff6b16;
+}
 .search_top_nav img {
     position: relative;
     top: 6px;
@@ -296,7 +305,7 @@ search_top_nav .fa {
 }
 
 #social .mail:hover {
-    background-color: #525151;
+    background-color: #FF6416;
 }
 
 #social img {
