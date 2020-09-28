@@ -36,6 +36,10 @@
         text-align: center;
         width: 95vw;
         height: 220px;
+        padding-top: 100px;
+        font-family: 'Roboto';
+        font-size: 30px;
+        color: #1d1d1d;
         background: gray;
         margin: 20px auto;
         position: relative;
@@ -163,6 +167,10 @@
         text-align: center;
         width: 180px;
         height: 440px;
+        padding-top: 210px;
+        font-family: 'Roboto';
+        font-size: 30px;
+        color: #1d1d1d;
         background: gray;
         margin: 20px auto;
         position: relative;
