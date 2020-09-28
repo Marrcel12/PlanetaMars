@@ -85,9 +85,16 @@
     .top_nav {
         display: none;
     }
+    footer .planet_icon_box{
+        left:0 !important;
+        position: relative;
+        top: -15px
+    }
 }
 
 @media only screen and (min-width: 1000px) {
+    footer .planet_icon_box{
+        left:45px;}
     .logo_box {
         display: inline-block;
         margin: 0 auto;
@@ -434,4 +441,9 @@ button:focus {
     text-align: center;
     margin-bottom: 2px;
     font-weight: 200;
+}
+
+footer .planet_icon_box{
+    left:45px;
+    font-weight: normal;
 }
