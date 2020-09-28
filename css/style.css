@@ -447,3 +447,6 @@ footer .planet_icon_box{
     left:45px;
     font-weight: normal;
 }
+.mobile_nav .planet_icon_box span{
+    font-size: 22px !important;
+}
