@@ -261,10 +261,15 @@ html {
         width: 450px;
         padding: 8px;
     }
+    .news_article a{
+        width: 434px;
+        height: 274px;
+        display: block;
+    }
 
     .news_article img {
-        width: 414px;
-        height: 269px;
+        width: 434px;
+        height: 274px;
     }
 
     .news_text {
@@ -359,7 +364,7 @@ html {
 
     .carousel_tile img {
         width: 315px;
-        height: 183px;
+        height: 210px;
     }
 
     .carousel_text {
