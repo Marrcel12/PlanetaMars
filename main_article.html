@@ -193,7 +193,9 @@
         instance = new Zooming({
             bgColor: 'rgb(0, 0, 0)'
         })
-        instance.listen('.photo_gall');
+        if(window.innerWidth>1000){
+           instance.listen('.photo_gall'); 
+        }
 
     </script>
 </body>
