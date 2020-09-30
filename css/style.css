@@ -302,7 +302,7 @@ button:focus {
     left: -5px;
 }
 
-.search_top_nav input:active {
+.search_top_nav input:focus {
     outline: none;
     border-style: hidden hidden groove;
     border-bottom: #FF6416;
@@ -316,6 +316,9 @@ button:focus {
 .search_top_nav .fa {
     color: white;
     font-size: 2.2vh;
+}
+.search_top_nav img{
+    cursor: pointer;
 }
 
 .roboto_font {
